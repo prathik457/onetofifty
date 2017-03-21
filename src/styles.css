@@ -1,5 +1,41 @@
 h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+
+.jumbotron {
+    height: 600px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.centered {
+    position: relative;
+    top: 37%;
+    left: 33%;
+    overflow: hidden;
+    width: 400px;
+}
+
+.grid-row {
+    clear: both;
+}
+
+.block {
+    display: table;
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.value {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: default;
 }
